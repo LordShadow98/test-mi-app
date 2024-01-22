@@ -1,0 +1,61 @@
+
+
+body {
+    background-color: royalblue;
+    color: rgb(255, 255, 255);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .card-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Esto centra verticalmente el contenido */
+  }
+  
+  .profile-card {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-image {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .profile-info {
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin-bottom: 15px;
+  }
+  
+  .profile-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .profile-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px; /* Ajusta el relleno para hacer los botones más grandes */
+    font-size: 16px; /* Ajusta el tamaño de la fuente para hacer los botones más grandes */
+  }
+  
+  .profile-section {
+    margin-bottom: 20px;
+  }
+  
+  .profile-footer {
+    text-align: center;
+  }
+  
+  .profile-footer a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  
